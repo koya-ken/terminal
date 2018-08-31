@@ -1,0 +1,13 @@
+#!/bin/bash
+
+function md() {
+    [ -d $1 ] || mkdir -p $1
+}
+
+function main() {
+    md .ssh
+    echo ssh-keygen -t rsa
+    ssh-keygen -t rsa
+}
+
+main

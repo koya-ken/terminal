@@ -1,0 +1,6 @@
+*
+*/
+!.gitignore
+!.bashrc
+!/script/
+!/script/**
