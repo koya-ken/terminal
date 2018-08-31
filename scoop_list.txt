@@ -1,0 +1,13 @@
+Installed apps: 
+
+  7zip 18.05
+  gradle 4.10
+  groovy 2.5.2
+  jetbrains-toolbox 1.11.4231
+  jq 1.5
+  nodejs 10.9.0
+  openjdk10 10.0.2-13 [java]
+  python 3.7.0
+  which 2.20
+  zeal 0.5.0 [extras]
+

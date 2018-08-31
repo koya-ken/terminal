@@ -3,5 +3,6 @@
 !.gitignore
 !.bashrc
 !.bash_aliases
+!scoop_list.txt
 !/script/
 !/script/**
