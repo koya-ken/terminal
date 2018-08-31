@@ -2,5 +2,6 @@
 */
 !.gitignore
 !.bashrc
+!.bash_aliases
 !/script/
 !/script/**

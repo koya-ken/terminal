@@ -5,4 +5,8 @@ function _java() {
 }
 
 complete  -o default -F _java java
+
+if [ -f "${HOME}/.bash_aliases" ]; then
+    . "${HOME}/.bash_aliases"
+fi
 PATH=$PATH:$(readlink -f ~/scoop/apps/nodejs/current)
