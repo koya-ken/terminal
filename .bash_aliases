@@ -8,4 +8,8 @@ alias update_scoop='scoop list > ~/scoop_list.txt'
 alias open_github='git remote get-url origin | cut -d: -f2 | perl -pe "s/^/https:\/\/github.com\//g"| xargs start'
 # refresh bashrc
 alias refresh='. ~/.bashrc'
+# edit bash_aliases
+alias aliases='vim ~/.bash_aliases'
+# sqlite3 console
+alias sqlite3='winpty sqlite3'
 
