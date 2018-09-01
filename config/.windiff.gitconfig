@@ -1,0 +1,16 @@
+[diff]
+    tool = WinMerge
+[difftool "WinMerge"]
+    path = ~/scoop/shims/winmergeu.exe
+    cmd =  ~/scoop/shims/winmergeu.exe -f \"*.*\" -e -u -r \"$LOCAL\" \"$REMOTE\"
+[merge]
+    tool = WinMerge
+[mergetool "WinMerge"]
+    path = ~/scoop/shims/winmergeu.exe
+    cmd = ~/scoop/shims/winmergeu.exe -e -u \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[alias]
+    windiff = difftool -y -d -t WinMerge
+    winmerge = mergetool -y -t WinMerge
+
+# [include]
+#    path = ~/config/.windiff.gitconfig
