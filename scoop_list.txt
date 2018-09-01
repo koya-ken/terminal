@@ -1,6 +1,7 @@
 Installed apps: 
 
   7zip 18.05
+  conemu 18.06.26 [extras]
   gradle 4.10
   groovy 2.5.2
   jetbrains-toolbox 1.11.4231
