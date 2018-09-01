@@ -2,8 +2,10 @@ Installed apps:
 
   7zip 18.05
   conemu 18.06.26 [extras]
+  gitignore 0.2015.08.26
   gradle 4.10
   groovy 2.5.2
+  hub 2.5.1
   jetbrains-toolbox 1.11.4231
   jq 1.5
   nodejs 10.9.0

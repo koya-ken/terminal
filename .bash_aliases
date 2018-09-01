@@ -12,4 +12,7 @@ alias refresh='. ~/.bashrc'
 alias aliases='vim ~/.bash_aliases'
 # sqlite3 console
 alias sqlite3='winpty sqlite3'
-
+# git hub command
+alias git='hub'
+# git hub complete update
+alias hub-complete='(cd ~/complete && curl -s -O https://raw.githubusercontent.com/github/hub/master/etc/hub.bash_completion.sh)'
