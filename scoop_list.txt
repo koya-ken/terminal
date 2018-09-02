@@ -1,6 +1,7 @@
 Installed apps: 
 
   7zip 18.05
+  bazel 0.16.1
   conemu 18.06.26 [extras]
   gitignore 0.2015.08.26
   gradle 4.10
