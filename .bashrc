@@ -14,4 +14,8 @@ if [ -f ${HOME}/complete/hub.bash_completion.sh ]; then
   . ${HOME}/complete/hub.bash_completion.sh 
 fi
 
+if [ -f ${HOME}/complete/gradle-completion.bash ]; then
+  . ${HOME}/complete/gradle-completion.bash
+fi
+
 PATH=$PATH:$(readlink -f ~/scoop/apps/nodejs/current)

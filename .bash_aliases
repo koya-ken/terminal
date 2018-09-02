@@ -16,3 +16,5 @@ alias sqlite3='winpty sqlite3'
 alias git='hub'
 # git hub complete update
 alias hub-complete='(cd ~/complete && curl -s -O https://raw.githubusercontent.com/github/hub/master/etc/hub.bash_completion.sh)'
+# gradle complete update
+alias gradle-complete='(cd ~/complete && curl -s -O https://raw.githubusercontent.com/gradle/gradle-completion/master/gradle-completion.bash)'
