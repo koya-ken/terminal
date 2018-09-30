@@ -1,3 +1,5 @@
+PATH=$PATH:$(readlink -f ~/scoop/apps/nodejs/current)
+
 function _java() {
 	local cur prev cword
 	_get_comp_words_by_ref -n : cur prev cword
@@ -22,4 +24,7 @@ if [ -f ${HOME}/complete/gradle-completion.bash ]; then
   . ${HOME}/complete/gradle-completion.bash
 fi
 
-PATH=$PATH:$(readlink -f ~/scoop/apps/nodejs/current)
+# ssh-agent
+eval `ssh-agent`
+ssh-add ~/.ssh/id_rsa
+
