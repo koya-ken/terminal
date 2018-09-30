@@ -10,6 +10,10 @@ if [ -f "${HOME}/.bash_aliases" ]; then
     . "${HOME}/.bash_aliases"
 fi
 
+if [ -f "${HOME}/.bash_functions" ]; then
+    . "${HOME}/.bash_functions"
+fi
+
 if [ -f ${HOME}/complete/hub.bash_completion.sh ]; then
   . ${HOME}/complete/hub.bash_completion.sh 
 fi

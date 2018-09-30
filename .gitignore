@@ -3,6 +3,7 @@
 !.gitignore
 !.bashrc
 !.bash_aliases
+!.bash_functions
 !.vimrc
 !scoop_list.txt
 !/script/
