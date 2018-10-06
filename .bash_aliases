@@ -18,3 +18,5 @@ alias git='hub'
 alias hub-complete='(cd ~/complete && curl -s -O https://raw.githubusercontent.com/github/hub/master/etc/hub.bash_completion.sh)'
 # gradle complete update
 alias gradle-complete='(cd ~/complete && curl -s -O https://raw.githubusercontent.com/gradle/gradle-completion/master/gradle-completion.bash)'
+# grep color
+alias grep='grep --color=auto'
