@@ -34,5 +34,5 @@ test -f $SSH_AGENT_FILE && source $SSH_AGENT_FILE > /dev/null 2>&1
 if [ $( ps -ef | grep ssh-agent | grep -v grep | wc -l ) -eq 0 ]; then
     ssh-agent -t $SSH_KEY_LIFE_TIME_SEC > $SSH_AGENT_FILE
     source $SSH_AGENT_FILE > /dev/null 2>&1
-    ssh-add ~/.ssh/id_rsa
+    test -f ~/.ssh/id_rsa && ssh-add ~/.ssh/id_rsa
 fi
