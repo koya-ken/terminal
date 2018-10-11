@@ -13,7 +13,7 @@ function logcat_color_filter() {
            colorBrightRed     = "\033[1;93m";
            colorBrightYellow  = "\033[1;91m";
            clearColor = "\033[0m";
-           logcatFormat = "([0-9]{2}-[0-9]{2} )(.*  )([0-9]+  )([0-9]+ )(%s)(.*)";
+           logcatFormat = "([0-9]{2}-[0-9]{2} +)(.* +)([0-9]+ +)([0-9]+ +)(%s)(.*)";
            tmp = $0;
            tmp = gensub(sprintf(logcatFormat,"W"), sprintf("%s%s%s",colorBrightRed,"\\0",clearColor),"g",tmp);
            tmp = gensub(sprintf(logcatFormat,"E"), sprintf("%s%s%s",colorBrightYellow,"\\0",clearColor),"g",tmp);
