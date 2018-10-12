@@ -1,0 +1,27 @@
+# プロンプト上には場所だけ出す
+$PROMPT = "{INTENSE_YELLOW}[ {cwd} ] ({curr_branch}) {GREEN}$ "
+# 下部にuser, host情報を追加
+$BOTTOM_TOOLBAR = "{BACKGROUND_WHITE}{BLACK}{user}@{hostname}"
+# 補完をEnterで直接実行しない
+$COMPLETIONS_CONFIRM = True
+# Ctrl + D で終了しない
+$IGNOREEOF = True
+# tabではなく空白4つ
+$INDENT = "    "
+# 補完時に大小区別しない
+$CASE_SENSITIVE_COMPLETIONS = False
+# 連続重複コマンドを保存しない
+$HISTCONTROL = "ignoredups"
+# 括弧を補完
+$XONSH_AUTOPAIR = True
+# ディレクトリ名を入力でcd
+$AUTO_CD = True
+# エラー全て吐くように
+$XONSH_SHOW_TRACEBACK = True
+# サブプロセスタイムアウトのメッセージ抑制
+$SUPPRESS_BRANCH_TIMEOUT_MESSAGE = True
+# キー入力即評価
+# $UPDATE_COMPLETIONS_ON_KEYPRESS = True
+
+aliases["la"] = "ls --color=auto -la"
+aliases["ll"] = "ls --color=auto -l"

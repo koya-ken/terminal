@@ -20,3 +20,7 @@ alias hub-complete='(cd ~/complete && curl -s -O https://raw.githubusercontent.c
 alias gradle-complete='(cd ~/complete && curl -s -O https://raw.githubusercontent.com/gradle/gradle-completion/master/gradle-completion.bash)'
 # grep color
 alias grep='grep --color=auto'
+# ssh config enabled
+alias ssh='ssh -F ~/.ssh/config'
+# scoop xonsh
+alias xonsh='PYTHONUNBUFFERED=1 winpty python3 -u -m xonsh "$@"'

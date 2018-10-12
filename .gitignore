@@ -6,6 +6,7 @@
 !.bash_aliases
 !.bash_functions
 !.vimrc
+!.xonshrc
 !scoop_list.txt
 !/script/
 !/script/**
@@ -17,3 +18,4 @@
 !/config/**
 !/settings/
 !/settings/**
+/settings/vim

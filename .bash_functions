@@ -21,6 +21,9 @@ function logcat_color_filter() {
     }'
 }
 
+function line() {
+    perl -ne "if (\$. == $1) {print}"
+}
 
 __AFTER_FUNCTIONS=$(compgen -A function)
 __AFTER_VARIABLES=$(compgen -A variable)
